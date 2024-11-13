@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Todo</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="todolist">
+      <h2>Todo List</h2>
+        <div class="inputRow">
+          <input type="text" autocomplete="off" placeholder="Enter your text here" id="inp"></input>
+          <button id="addButton" onclick="addTodo()">Add</button>
+          <button id="delAllButton" onclick="clearAll()">Delete All</button>
+        </div>
+
+      <div id="mainTodolist"></div>
+      </div>
+    </div>
+  </div>
+  <script rel="script" src="todo.js"></script>
+</body>
+
+</html>
